@@ -56,14 +56,14 @@ const Card: React.FC<Props> = ({
                          error &&  <FormHelperText>{errorText}</FormHelperText>
                        } 
                         <div className="button__container">
-                       { 
+                       {/* { 
                        !!!error &&
                        questionNum > 1 && questionNum !== totalQuestions && (
                         <Button  onClick={prevQuestion} variant="outlined" color="primary">
                          <ArrowBackIosIcon style={{fontSize: '11px', marginRight: '10px'}}/>
                             Prev Question
                         </Button>
-                       )}
+                       )} */}
                        {
                        !!!error &&
                         <Button onClick={questionNum === totalQuestions ? handleSubmit : nextQuestion} variant="outlined" color="primary">

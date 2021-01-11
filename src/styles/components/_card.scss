@@ -5,9 +5,10 @@ align-items: center;
 }
 
 .card {
-    width: 700px;
-    height :350px;
+    width: 45%;
+    height: 350px;
     padding: 20px;
+    margin-top: 50px;
     border-radius: 5px;
     background: white;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
@@ -36,6 +37,12 @@ align-items: center;
         display: flex;
         justify-content: center;
         text-align: center;
+    }
+
+    @media(max-width :1040px) {
+        .card__question {
+            font-size: 12px;
+        }
     }
 
     .radio .MuiFormControlLabel-root {

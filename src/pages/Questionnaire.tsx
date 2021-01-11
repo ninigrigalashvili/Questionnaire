@@ -45,6 +45,8 @@ const Questionnaire: React.FC = () => {
         e.preventDefault();
         setNumber(0);
         setEndOfQuestions(false);
+        setQuestions([]);
+        fetchData();
     }
 
     const prevQuestion = () => {
