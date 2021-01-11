@@ -1,0 +1,35 @@
+.progress-bar-main-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: -12px;
+    height: 24px;
+    border-radius: 8px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.progress-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 8px;
+    
+}
+
+.progress-bar {
+    width: 62px;
+    height: 6px;
+    border-radius: 8px;
+    background-color: $light-gray;
+}
+
+.progress-bar-range {
+    background: $orange;
+    height: 100%;
+    border-radius: inherit;
+    transition: width .3s ease-in;
+}
+

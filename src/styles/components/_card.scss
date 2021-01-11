@@ -1,0 +1,53 @@
+.card__container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card {
+    width: 700px;
+    height :350px;
+    padding: 20px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    .button__container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 25px;
+    }
+    button {
+        width: 130px;
+    }
+
+    
+
+    .card__questionNum {
+        color:  #ffb901;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .card__question {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .radio .MuiFormControlLabel-root {
+       margin-left: 18px;
+       background: $light-gray;
+       margin-top: 10px;
+       border-radius: 20px;
+    }
+
+    .MuiFormHelperText-root {
+        margin-left: 30px;
+        color: red;
+        font-size: 10px;
+    }
+}

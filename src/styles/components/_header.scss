@@ -1,0 +1,21 @@
+.header {
+    background-color: $off-black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: $m-size 0;
+}
+
+
+//BEM
+.headers__title {
+    font-size: $l-size;
+}
+
+
+@media(min-width: $desktop-breakpoint) {
+    .header {
+        margin-bottom: $xl-size;
+    }
+}
